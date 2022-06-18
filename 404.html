@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-beta.48">
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html, body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.classList.toggle('dark', true);
+			}
+    </script>
+    <title></title><meta name="description" content="">
+    <link rel="modulepreload" href="/codehub/assets/app.de7be530.js"><link rel="modulepreload" href="/codehub/assets/404.html.7dfdc5ed.js"><link rel="modulepreload" href="/codehub/assets/404.html.7d858b3d.js"><link rel="prefetch" href="/codehub/assets/index.html.6173b392.js"><link rel="prefetch" href="/codehub/assets/md-syntax.html.5e5fb187.js"><link rel="prefetch" href="/codehub/assets/index.html.ec83f51c.js"><link rel="prefetch" href="/codehub/assets/md-syntax.html.20fcbdf7.js"><link rel="prefetch" href="/codehub/assets/404.391794e7.js"><link rel="prefetch" href="/codehub/assets/Layout.eaf832a1.js">
+    <link rel="stylesheet" href="/codehub/assets/style.2c3beca4.css">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container"><div class="theme-default-content"><h1>404</h1><blockquote>That&#39;s a Four-Oh-Four.</blockquote><a href="/codehub/" class="">Take me home</a></div></div><!----><!--]--></div>
+    <script type="module" src="/codehub/assets/app.de7be530.js" defer></script>
+  </body>
+</html>
